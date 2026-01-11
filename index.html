@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ============================================================
+       PRIMARY SEO META
+       ============================================================ -->
+  <title>JustGuide — Aggregate All Your Tour Bookings Automatically</title>
+  <meta name="description" content="JustGuide helps tour guides and agencies aggregate bookings from Guruwalk, GetYourGuide, Viator, TripAdvisor, and more. One mobile dashboard, AI-powered updates, zero stress.">
+  <meta name="keywords" content="tour guide booking, booking aggregation, tour management, guide software, Guruwalk, GetYourGuide, Viator, tour agency software">
+  <meta name="author" content="JustGuide">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://justguide.app">
+  
+  <!-- ============================================================
+       OPEN GRAPH
+       ============================================================ -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://justguide.app">
+  <meta property="og:title" content="JustGuide — Aggregate All Your Tour Bookings Automatically">
+  <meta property="og:description" content="JustGuide helps tour guides and agencies aggregate bookings from any platform. One mobile dashboard, AI-powered updates, zero stress.">
+  <meta property="og:image" content="https://justguide.app/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="JustGuide">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- ============================================================
+       TWITTER CARD
+       ============================================================ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://justguide.app">
+  <meta name="twitter:title" content="JustGuide — Aggregate All Your Tour Bookings Automatically">
+  <meta name="twitter:description" content="JustGuide helps tour guides and agencies aggregate bookings from any platform. One mobile dashboard, AI-powered updates, zero stress.">
+  <meta name="twitter:image" content="https://justguide.app/assets/og-image.png">
+  
+  <!-- ============================================================
+       FAVICON
+       ============================================================ -->
+  <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
+  <link rel="apple-touch-icon" href="public/favicon.svg">
+  
+  <!-- ============================================================
+       FONTS (Preload for performance)
+       ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- ============================================================
+       STYLES
+       ============================================================ -->
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <!-- ============================================================
+       GOOGLE TAG MANAGER (Uncomment when ready)
+       ============================================================ -->
+  <!-- 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  -->
+  
+  <!-- ============================================================
+       JSON-LD STRUCTURED DATA
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JustGuide",
+    "url": "https://justguide.app",
+    "logo": "https://justguide.app/public/favicon.svg",
+    "description": "Booking aggregation and management tool for tour guides and agencies.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "quentin@justguide.app",
+      "contactType": "customer support"
+    },
+    "sameAs": []
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "JustGuide",
+    "url": "https://justguide.app"
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "JustGuide",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web, iOS, Android",
+    "description": "Aggregate all your tour bookings automatically from any platform. Mobile-friendly dashboard for tour guides and agencies.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- ============================================================
+       GOOGLE TAG MANAGER (noscript - Uncomment when ready)
+       ============================================================ -->
+  <!-- 
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  -->
+
+  <!-- ============================================================
+       SKIP TO CONTENT (Accessibility)
+       ============================================================ -->
+  <a href="#main" class="sr-only">Skip to main content</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo" aria-label="JustGuide Home">
+        <svg class="header__logo-icon" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#0ea5e9"/>
+              <stop offset="100%" style="stop-color:#0284c7"/>
+            </linearGradient>
+          </defs>
+          <rect width="100" height="100" rx="20" fill="url(#logo-grad)"/>
+          <path d="M50 20C35.64 20 24 31.64 24 46c0 18 26 34 26 34s26-16 26-34c0-14.36-11.64-26-26-26zm0 35c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z" fill="white"/>
+        </svg>
+        <span>JustGuide</span>
+      </a>
+      
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="#features" class="header__nav-link">Features</a>
+        <a href="#how-it-works" class="header__nav-link">How It Works</a>
+        <a href="#privacy" class="header__nav-link">Privacy</a>
+      </nav>
+      
+      <div class="header__actions">
+        <a href="https://app.justguide.app" class="btn btn--outline btn--sm" data-cta="signin">Sign in</a>
+        <a href="https://app.justguide.app" class="btn btn--primary btn--sm" data-cta="signup">Sign up</a>
+      </div>
+      
+      <button class="header__mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu__overlay" id="mobile-menu-overlay" aria-hidden="true"></div>
+  
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__header">
+      <span class="header__logo">
+        <svg class="header__logo-icon" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="logo-grad-mobile" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#0ea5e9"/>
+              <stop offset="100%" style="stop-color:#0284c7"/>
+            </linearGradient>
+          </defs>
+          <rect width="100" height="100" rx="20" fill="url(#logo-grad-mobile)"/>
+          <path d="M50 20C35.64 20 24 31.64 24 46c0 18 26 34 26 34s26-16 26-34c0-14.36-11.64-26-26-26zm0 35c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z" fill="white"/>
+        </svg>
+        <span>JustGuide</span>
+      </span>
+      <button class="mobile-menu__close" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="24" height="24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+      <a href="#features" class="mobile-menu__link">Features</a>
+      <a href="#how-it-works" class="mobile-menu__link">How It Works</a>
+      <a href="#privacy" class="mobile-menu__link">Privacy</a>
+    </nav>
+    <div class="mobile-menu__actions">
+      <a href="https://app.justguide.app" class="btn btn--outline" data-cta="signin">Sign in</a>
+      <a href="https://app.justguide.app" class="btn btn--primary" data-cta="signup">Sign up free</a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main">
+    
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero section">
+      <div class="container hero__inner">
+        <span class="hero__badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+          Built by Tour Guides
+        </span>
+        
+        <h1 class="hero__title">
+          Stop Chasing Bookings.<br>
+          <span class="hero__title-highlight">Just Guide!</span>
+        </h1>
+        
+        <p class="hero__subtitle">
+          JustGuide automatically aggregates all your tour bookings from any platform into one mobile-friendly dashboard. Powered by AI, built for stress-free guiding.
+        </p>
+        
+        <div class="hero__cta">
+          <a href="https://app.justguide.app" class="btn btn--primary btn--lg" data-cta="signin">Sign in</a>
+          <a href="https://app.justguide.app" class="btn btn--secondary btn--lg" data-cta="signup">Sign up free</a>
+        </div>
+        
+        <div class="hero__platforms">
+          <p class="hero__platforms-label">Works with all your booking sources:</p>
+          <div class="hero__platforms-list">
+            <span class="hero__platforms-item">Guruwalk</span>
+            <span class="hero__platforms-item">FreeTour</span>
+            <span class="hero__platforms-item">GetYourGuide</span>
+            <span class="hero__platforms-item">Viator</span>
+            <span class="hero__platforms-item">TripAdvisor</span>
+            <span class="hero__platforms-item">Your website</span>
+            <span class="hero__platforms-item">Even your nephew's site</span>
+          </div>
+        </div>
+        
+        <div class="hero__trust">
+          <span class="hero__trust-item">
+            <svg class="hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+            Built by guides
+          </span>
+          <span class="hero__trust-item">
+            <svg class="hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+            Privacy-first
+          </span>
+          <span class="hero__trust-item">
+            <svg class="hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            Saves hours weekly
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOCIAL PROOF SECTION
+         ============================================================ -->
+    <section class="section section--alt social-proof" id="social-proof">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Trusted by Guides</span>
+          <h2 class="section__title">Built by Tour Guides, for Tour Guides</h2>
+          <p class="section__subtitle">We understand the stress of managing multiple booking platforms. That's why we built JustGuide.</p>
+        </header>
+        
+        <div class="testimonials">
+          <article class="testimonial-card">
+            <p class="testimonial-card__quote">JustGuide saved me at least 2 hours every day. I used to check 5 different apps before each tour. Now everything is in one place.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">MR</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">Marco R.</span>
+                <span class="testimonial-card__role">Free Tour Guide, Barcelona</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="testimonial-card">
+            <p class="testimonial-card__quote">The automatic message feature is a game changer. My guests always know where to meet, and I never forget to send reminders anymore.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">SK</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">Sophie K.</span>
+                <span class="testimonial-card__role">Tour Guide, Amsterdam</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="testimonial-card">
+            <p class="testimonial-card__quote">Running an agency with 12 guides was chaos. Now I dispatch tours in seconds and everyone knows their schedule instantly.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">JL</div>
+              <div class="testimonial-card__info">
+                <span class="testimonial-card__name">James L.</span>
+                <span class="testimonial-card__role">Agency Owner, London</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURES SECTION
+         ============================================================ -->
+    <section class="section features" id="features">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Features</span>
+          <h2 class="section__title">Everything You Need to Guide Stress-Free</h2>
+          <p class="section__subtitle">From automatic booking collection to analytics, JustGuide handles the admin so you can focus on your guests.</p>
+        </header>
+        
+        <div class="features__grid">
+          <!-- Feature 1: Aggregate (Highlight) -->
+          <article class="feature-card feature-card--highlight">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Aggregate Automatically</h3>
+            <p class="feature-card__description">Connect any booking source — Guruwalk, FreeTour, GetYourGuide, Viator, TripAdvisor, your website, even manual sources. JustGuide collects them all into one unified dashboard.</p>
+          </article>
+          
+          <!-- Feature 2: Mobile Dashboard -->
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Mobile-First Dashboard</h3>
+            <p class="feature-card__description">Your booking list, designed for your phone. Mark attendance, add notes, manage tours on the go. Everything at your fingertips when you need it.</p>
+          </article>
+          
+          <!-- Feature 3: One-Click Messages -->
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">One-Click Messages</h3>
+            <p class="feature-card__description">Send automatic pre-tour messages via WhatsApp or SMS. Your guests always know where to meet. No more no-shows or confused travelers.</p>
+          </article>
+          
+          <!-- Feature 4: Analytics -->
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Money & Analytics</h3>
+            <p class="feature-card__description">Track earnings month by month, tour by tour. See which platforms perform best and optimize your schedule based on real data.</p>
+          </article>
+          
+          <!-- Feature 5: Notifications -->
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Platform Notifications</h3>
+            <p class="feature-card__description">Never miss a change. Get notified instantly about cancellations, updates, and new bookings across all your connected platforms.</p>
+          </article>
+          
+          <!-- Feature 6: Agency Mode -->
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Agency Mode</h3>
+            <p class="feature-card__description">Running a team? Dispatch tours to guides in one click. Maintain clear schedules and shared analytics. No more coordination headaches.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW IT WORKS SECTION
+         ============================================================ -->
+    <section class="section section--alt how-it-works" id="how-it-works">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">How It Works</span>
+          <h2 class="section__title">The Magic Behind JustGuide</h2>
+          <p class="section__subtitle">JustGuide uses AI agents to keep your bookings updated automatically. Built by guides who understand that guiding is hard enough without admin stress.</p>
+        </header>
+        
+        <div class="steps">
+          <div class="step">
+            <div class="step__number">1</div>
+            <div class="step__content">
+              <h3 class="step__title">Connect Your Sources</h3>
+              <p class="step__description">Forward booking emails or link your platforms. We support all major marketplaces, websites, and even manual entries.</p>
+            </div>
+          </div>
+          
+          <div class="step">
+            <div class="step__number">2</div>
+            <div class="step__content">
+              <h3 class="step__title">AI Does the Work</h3>
+              <p class="step__description">Our AI agents extract booking details, organize them, and keep everything updated automatically. No manual data entry.</p>
+            </div>
+          </div>
+          
+          <div class="step">
+            <div class="step__number">3</div>
+            <div class="step__content">
+              <h3 class="step__title">Manage From Your Phone</h3>
+              <p class="step__description">Everything in one place. Check your schedule, message guests, track earnings. Start your tour stress-free.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SCREENSHOTS SECTION
+         ============================================================ -->
+    <section class="section screenshots" id="screenshots">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__eyebrow">Product Preview</span>
+          <h2 class="section__title">See JustGuide in Action</h2>
+          <p class="section__subtitle">A beautiful, intuitive interface designed for busy guides on the go.</p>
+        </header>
+        
+        <div class="screenshots__grid">
+          <!-- Screenshot 1: Booking List -->
+          <figure class="screenshot-card">
+            <div class="screenshot-card__frame">
+              <img src="assets/screenshots/booking-list.webp" alt="JustGuide booking list view showing all your tours in one place" class="screenshot-card__image" loading="lazy" decoding="async">
+            </div>
+            <figcaption class="screenshot-card__caption">Your bookings, beautifully organized</figcaption>
+          </figure>
+          
+          <!-- Screenshot 2: Statistics -->
+          <figure class="screenshot-card">
+            <div class="screenshot-card__frame">
+              <img src="assets/screenshots/statistics.webp" alt="JustGuide statistics dashboard with earnings and analytics" class="screenshot-card__image" loading="lazy" decoding="async">
+            </div>
+            <figcaption class="screenshot-card__caption">Know exactly where money flows</figcaption>
+          </figure>
+          
+          <!-- Screenshot 3: Auto Messages -->
+          <figure class="screenshot-card">
+            <div class="screenshot-card__frame">
+              <img src="assets/screenshots/auto-message.webp" alt="JustGuide automatic messaging feature for WhatsApp and SMS" class="screenshot-card__image" loading="lazy" decoding="async">
+            </div>
+            <figcaption class="screenshot-card__caption">One tap to remind your guests</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRIVACY SECTION
+         ============================================================ -->
+    <section class="section section--alt privacy" id="privacy">
+      <div class="container">
+        <div class="privacy__content">
+          <svg class="privacy__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="M9 12l2 2 4-4"/>
+          </svg>
+          
+          <h2 class="privacy__title">Your Privacy Matters</h2>
+          
+          <p class="privacy__text">
+            We built JustGuide with privacy at its core. Your data stays yours. We never sell personal information, and client data is automatically cleaned after tours are complete.
+          </p>
+          
+          <div class="privacy__badges">
+            <span class="privacy__badge">
+              <svg class="privacy__badge-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18"/>
+                <path d="m6 6 12 12"/>
+              </svg>
+              No data selling
+            </span>
+            <span class="privacy__badge">
+              <svg class="privacy__badge-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+                <line x1="12" y1="11" x2="12" y2="17"/>
+              </svg>
+              Client anonymization
+            </span>
+            <span class="privacy__badge">
+              <svg class="privacy__badge-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="3 6 5 6 21 6"/>
+                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+              </svg>
+              Auto phone cleanup
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA SECTION
+         ============================================================ -->
+    <section class="section final-cta" id="cta">
+      <div class="container final-cta__inner">
+        <h2 class="final-cta__title">Ready to Stop Juggling Bookings?</h2>
+        
+        <p class="final-cta__text">
+          Trying it is adopting — once you use JustGuide, you can't start a tour without it.<br>
+          Save hours every week. Only one thing left to do: <strong>Just Guide.</strong>
+        </p>
+        
+        <div class="final-cta__buttons">
+          <a href="https://app.justguide.app" class="btn btn--primary btn--lg" data-cta="signin">Sign in</a>
+          <a href="https://app.justguide.app" class="btn btn--outline btn--lg" data-cta="signup">Sign up free</a>
+        </div>
+        
+        <p class="final-cta__contact">
+          Questions? <a href="mailto:quentin@justguide.app">quentin@justguide.app</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">
+          <svg class="footer__logo-icon" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="logo-grad-footer" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0ea5e9"/>
+                <stop offset="100%" style="stop-color:#0284c7"/>
+              </linearGradient>
+            </defs>
+            <rect width="100" height="100" rx="20" fill="url(#logo-grad-footer)"/>
+            <path d="M50 20C35.64 20 24 31.64 24 46c0 18 26 34 26 34s26-16 26-34c0-14.36-11.64-26-26-26zm0 35c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z" fill="white"/>
+          </svg>
+          <span>JustGuide</span>
+        </a>
+        <p class="footer__tagline">Booking aggregation for tour guides</p>
+      </div>
+      
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://app.justguide.app" class="footer__link" data-cta="signin">Sign in</a>
+        <a href="https://app.justguide.app" class="footer__link" data-cta="signup">Sign up</a>
+        <a href="mailto:quentin@justguide.app" class="footer__link">Contact</a>
+      </nav>
+    </div>
+    
+    <div class="container footer__bottom">
+      <p class="footer__copyright">© 2026 JustGuide. Made with ♥ by guides.</p>
+      <p class="footer__privacy-note">Your data is safe. We never sell personal information.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
