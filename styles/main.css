@@ -408,6 +408,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary);
 }
 
+.hero__title-highlight-green {
+  color: var(--success);
+}
+
 .hero__subtitle {
   font-size: var(--text-lg);
   color: var(--text);
