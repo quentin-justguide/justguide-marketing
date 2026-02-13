@@ -453,9 +453,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--text-sm);
   color: var(--text-body);
   margin-bottom: var(--space-lg);
-  font-style: italic;
+  font-style: normal;
 }
 
+.hero__micro-joke-smile {
+  font-style: normal;
+}
 /* Hero CTAs */
 .hero__cta-hint {
   font-size: var(--text-base);
