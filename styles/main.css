@@ -456,9 +456,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-.hero__micro-joke-smile {
-  font-style: normal;
-}
+
 /* Hero CTAs */
 .hero__cta-hint {
   font-size: var(--text-base);
@@ -535,6 +533,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-section__content {
   max-width: 520px;
+}
+
+.feature-section__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.feature-section__heading .feature-section__title {
+  margin-bottom: 0;
+}
+
+.feature-section__icon {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
 }
 
 .feature-section__title {
@@ -1004,6 +1020,15 @@ h1, h2, h3, h4, h5, h6 {
 
   .feature-section__title {
     font-size: var(--text-3xl);
+  }
+
+  .feature-section__heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .feature-section__icon {
+    order: -1;
   }
 
   /* Privacy */
