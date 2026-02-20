@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * Just Guide Marketing - Main JavaScript
+ * JustGuide Marketing - Main JavaScript
  * ============================================================
  * Minimal, dependency-free JavaScript for the landing page.
  * ============================================================
