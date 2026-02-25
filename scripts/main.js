@@ -11,7 +11,7 @@
 // ============================================================
 const CONFIG = {
   APP_URL: 'https://app.justguide.app',
-  CONTACT_EMAIL: 'quentin@justguide.app',
+  CONTACT_EMAIL: 'hello@justguide.app',
 };
 
 // ============================================================

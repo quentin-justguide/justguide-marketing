@@ -82,7 +82,7 @@
     "description": "Booking aggregation and management tool for tour guides and agencies.",
     "contactPoint": {
       "@type": "ContactPoint",
-      "email": "quentin@justguide.app",
+      "email": "hello@justguide.app",
       "contactType": "customer support"
     },
     "sameAs": []
@@ -224,7 +224,7 @@
           <p class="hero__cta-hint">Have a specific question? Ask us!</p>
           <button class="btn btn--outline btn--lg copy-email-btn" data-cta="ask">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            quentin@justguide.app
+            hello@justguide.app
           </button>
         </div>
         
@@ -238,7 +238,10 @@
       
       <!-- Background guiding image -->
       <div class="hero__bg-image">
-        <img src="public/images/image-guide-tour-1750x1250.jpg" alt="" loading="eager" decoding="async">
+        <picture>
+          <source media="(min-width: 768px)" srcset="public/images/image-guide-tour-1.jpg">
+          <img src="public/images/image-guide-tour-1-mobile.jpg" alt="" loading="eager" decoding="async">
+        </picture>
       </div>
     </section>
 
@@ -351,7 +354,10 @@
     <section class="section privacy" id="privacy">
       <!-- Background guiding image -->
       <div class="privacy__bg-image">
-        <img src="public/images/image-guide-tour-3-1750x1250.jpg" alt="" loading="lazy" decoding="async">
+        <picture>
+          <source media="(min-width: 768px)" srcset="public/images/image-guide-tour-2.jpg">
+          <img src="public/images/image-guide-tour-2-mobile.jpg" alt="" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="container">
         <div class="privacy__content">
@@ -411,7 +417,7 @@
       <nav class="footer__links" aria-label="Footer navigation">
         <button class="footer__link copy-email-btn" data-cta="ask">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-          quentin@justguide.app
+          hello@justguide.app
         </button>
         <a href="https://app.justguide.app/login" class="footer__link footer__link--cta-blue" data-cta="signin">Sign in</a>
         <a href="https://app.justguide.app/signup" class="footer__link footer__link--cta" data-cta="signup">Sign up free</a>
@@ -427,7 +433,7 @@
   <!-- Copy email toast notification -->
   <div class="toast" id="copy-toast" aria-live="polite">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>Copied quentin@justguide.app</span>
+    <span>Copied hello@justguide.app</span>
   </div>
 
   <script src="scripts/main.js" defer></script>

@@ -72,7 +72,7 @@ Edit the `CONFIG` object at the top of `scripts/main.js`:
 ```javascript
 const CONFIG = {
   APP_URL: 'https://app.justguide.app',
-  CONTACT_EMAIL: 'quentin@justguide.app',
+  CONTACT_EMAIL: 'hello@justguide.app',
 };
 ```
 
@@ -236,4 +236,4 @@ Uses modern CSS features like:
 
 ---
 
-**Questions?** Contact [quentin@justguide.app](mailto:quentin@justguide.app)
+**Questions?** Contact [hello@justguide.app](mailto:hello@justguide.app)
